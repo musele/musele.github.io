@@ -2,6 +2,7 @@
 title: "关于"
 url: "/about/"
 hidemeta: true
+hiddenInRss: true
 ShowToc: false
 ShowBreadCrumbs: false
 comments: false

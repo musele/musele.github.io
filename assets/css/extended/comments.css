@@ -1,0 +1,8 @@
+/* utterances 评论区与正文的间距 */
+.post-comments {
+  margin-top: 2.5rem;
+}
+
+.post-comments .utterances {
+  max-width: 100%;
+}

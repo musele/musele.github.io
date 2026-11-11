@@ -41,7 +41,9 @@ enableEmoji = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowRssButtonInSectionTermList = true
+  ShowFullTextinRSS = true
   UseHugoToc = true
+  comments = true
   disableSpecial1stPost = true
   disableScrollToTop = false
   hidemeta = false
@@ -63,6 +65,14 @@ enableEmoji = true
   [[params.socialIcons]]
     name = "rss"
     url = "/index.xml"
+
+  [params.footer]
+    text = "[RSS](/index.xml)"
+
+  [params.utterances]
+    repo = "musele/musele.github.io"
+    issueTerm = "pathname"
+    theme = "preferred-color-scheme"
 
   [params.editPost]
     URL = "https://github.com/musele/musele.github.io/edit/main/content/"

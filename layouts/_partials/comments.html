@@ -1,0 +1,14 @@
+{{- with site.Params.utterances }}
+<div class="post-comments">
+  <script src="https://utteranc.es/client.js"
+    repo="{{ .repo }}"
+    issue-term="{{ .issueTerm | default "pathname" }}"
+    {{- with .label }}
+    label="{{ . }}"
+    {{- end }}
+    theme="{{ .theme | default "preferred-color-scheme" }}"
+    crossorigin="anonymous"
+    async>
+  </script>
+</div>
+{{- end }}
