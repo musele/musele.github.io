@@ -9,5 +9,8 @@ Thumbs.db
 .idea/
 .vscode/
 
+# Obsidian 的本地配置
+content/posts/.obsidian/
+
 # 本地环境
 .env
