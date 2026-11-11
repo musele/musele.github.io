@@ -52,6 +52,8 @@ summary: "一句话摘要"
 ---
 ```
 
+`categories` 会自动汇总到分类页 `/categories/`，`tags` 会汇总到 `/tags/`，都已加入顶部菜单，不需要手动维护列表。
+
 预览没问题后提交并推送：
 
 ```bash
@@ -98,7 +100,10 @@ comments: false
 之后每次推送到 `main` 都会自动部署，不需要提交 `public/` 目录（已在 `.gitignore` 中忽略）。
 
 如果之后换电脑，克隆后记得执行：
+
+```bash
 git submodule update --init --recursive
+```
 
 ## 目录结构
 

@@ -75,7 +75,7 @@ enableEmoji = true
     theme = "preferred-color-scheme"
 
   [params.editPost]
-    URL = "https://github.com/musele/musele.github.io/edit/main/content/"
+    URL = "https://github.com/musele/musele.github.io/edit/main/content"
     Text = "编辑此页"
     AppendFilePath = true
 
@@ -84,6 +84,12 @@ enableEmoji = true
   name = "文章"
   url = "/posts/"
   weight = 10
+
+[[menu.main]]
+  identifier = "categories"
+  name = "分类"
+  url = "/categories/"
+  weight = 15
 
 [[menu.main]]
   identifier = "archives"
