@@ -36,7 +36,7 @@ enableEmoji = true
 
   ShowReadingTime = true
   ShowWordCount = false
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
